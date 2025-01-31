@@ -1,0 +1,7 @@
+boy_name=input("boyname: ")
+boy_age=int(input("boy age: "))
+girl_name=input("girlname: ")
+girl_age=int(input("girl age: "))
+age_diff= abs(boy_age-girl_age)
+print(boy_name+" loves "+girl_name +". Age difference is " + str(age_diff))
+print(f"{boy_name} loves {girl_name}. Age Difference is  {age_diff}" )
